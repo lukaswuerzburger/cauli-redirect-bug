@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211E68A62326AD21003D93AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E68A52326AD21003D93AD /* AppDelegate.swift */; };
+		211E68A82326AD21003D93AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E68A72326AD21003D93AD /* ViewController.swift */; };
+		211E68AB2326AD21003D93AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211E68A92326AD21003D93AD /* Main.storyboard */; };
+		211E68AD2326AD21003D93AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211E68AC2326AD21003D93AD /* Assets.xcassets */; };
+		211E68B02326AD21003D93AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211E68AE2326AD21003D93AD /* LaunchScreen.storyboard */; };
+		211E68B82326B076003D93AD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E68B72326B076003D93AD /* WebViewController.swift */; };
+		2BA859A77F3313D1383B1079 /* Pods_cauli_redirect_bug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270C703BBCBCF0B462981D90 /* Pods_cauli_redirect_bug.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		211E68A22326AD21003D93AD /* cauli-redirect-bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cauli-redirect-bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211E68A52326AD21003D93AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		211E68A72326AD21003D93AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		211E68AA2326AD21003D93AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211E68AC2326AD21003D93AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211E68AF2326AD21003D93AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		211E68B12326AD21003D93AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211E68B72326B076003D93AD /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		270C703BBCBCF0B462981D90 /* Pods_cauli_redirect_bug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cauli_redirect_bug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2B54B976C8C980AE7A1B9D /* Pods-cauli-redirect-bug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cauli-redirect-bug.release.xcconfig"; path = "Target Support Files/Pods-cauli-redirect-bug/Pods-cauli-redirect-bug.release.xcconfig"; sourceTree = "<group>"; };
+		D83E4199CC2C573A18772FB3 /* Pods-cauli-redirect-bug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cauli-redirect-bug.debug.xcconfig"; path = "Target Support Files/Pods-cauli-redirect-bug/Pods-cauli-redirect-bug.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211E689F2326AD21003D93AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA859A77F3313D1383B1079 /* Pods_cauli_redirect_bug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B33A94CCC42C68DFCEE1698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				270C703BBCBCF0B462981D90 /* Pods_cauli_redirect_bug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		211E68992326AD21003D93AD = {
+			isa = PBXGroup;
+			children = (
+				211E68A42326AD21003D93AD /* cauli-redirect-bug */,
+				211E68A32326AD21003D93AD /* Products */,
+				DF223D44EB704DA3F5E4E0DD /* Pods */,
+				1B33A94CCC42C68DFCEE1698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		211E68A32326AD21003D93AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211E68A22326AD21003D93AD /* cauli-redirect-bug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211E68A42326AD21003D93AD /* cauli-redirect-bug */ = {
+			isa = PBXGroup;
+			children = (
+				211E68A52326AD21003D93AD /* AppDelegate.swift */,
+				211E68A72326AD21003D93AD /* ViewController.swift */,
+				211E68B72326B076003D93AD /* WebViewController.swift */,
+				211E68A92326AD21003D93AD /* Main.storyboard */,
+				211E68AC2326AD21003D93AD /* Assets.xcassets */,
+				211E68AE2326AD21003D93AD /* LaunchScreen.storyboard */,
+				211E68B12326AD21003D93AD /* Info.plist */,
+			);
+			path = "cauli-redirect-bug";
+			sourceTree = "<group>";
+		};
+		DF223D44EB704DA3F5E4E0DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D83E4199CC2C573A18772FB3 /* Pods-cauli-redirect-bug.debug.xcconfig */,
+				CB2B54B976C8C980AE7A1B9D /* Pods-cauli-redirect-bug.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211E68A12326AD21003D93AD /* cauli-redirect-bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211E68B42326AD21003D93AD /* Build configuration list for PBXNativeTarget "cauli-redirect-bug" */;
+			buildPhases = (
+				55D54C7E7653261C4E8C5682 /* [CP] Check Pods Manifest.lock */,
+				211E689E2326AD21003D93AD /* Sources */,
+				211E689F2326AD21003D93AD /* Frameworks */,
+				211E68A02326AD21003D93AD /* Resources */,
+				BFA5C826A01501D30BCCB359 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cauli-redirect-bug";
+			productName = "cauli-redirect-bug";
+			productReference = 211E68A22326AD21003D93AD /* cauli-redirect-bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211E689A2326AD21003D93AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Lukas Würzburger";
+				TargetAttributes = {
+					211E68A12326AD21003D93AD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 211E689D2326AD21003D93AD /* Build configuration list for PBXProject "cauli-redirect-bug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211E68992326AD21003D93AD;
+			productRefGroup = 211E68A32326AD21003D93AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211E68A12326AD21003D93AD /* cauli-redirect-bug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211E68A02326AD21003D93AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211E68B02326AD21003D93AD /* LaunchScreen.storyboard in Resources */,
+				211E68AD2326AD21003D93AD /* Assets.xcassets in Resources */,
+				211E68AB2326AD21003D93AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55D54C7E7653261C4E8C5682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cauli-redirect-bug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA5C826A01501D30BCCB359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cauli-redirect-bug/Pods-cauli-redirect-bug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cauli-redirect-bug/Pods-cauli-redirect-bug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cauli-redirect-bug/Pods-cauli-redirect-bug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211E689E2326AD21003D93AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211E68A82326AD21003D93AD /* ViewController.swift in Sources */,
+				211E68B82326B076003D93AD /* WebViewController.swift in Sources */,
+				211E68A62326AD21003D93AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		211E68A92326AD21003D93AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211E68AA2326AD21003D93AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211E68AE2326AD21003D93AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211E68AF2326AD21003D93AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211E68B22326AD21003D93AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		211E68B32326AD21003D93AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211E68B52326AD21003D93AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83E4199CC2C573A18772FB3 /* Pods-cauli-redirect-bug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "cauli-redirect-bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukwuerz.cauli-redirect-bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211E68B62326AD21003D93AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2B54B976C8C980AE7A1B9D /* Pods-cauli-redirect-bug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "cauli-redirect-bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukwuerz.cauli-redirect-bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211E689D2326AD21003D93AD /* Build configuration list for PBXProject "cauli-redirect-bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211E68B22326AD21003D93AD /* Debug */,
+				211E68B32326AD21003D93AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211E68B42326AD21003D93AD /* Build configuration list for PBXNativeTarget "cauli-redirect-bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211E68B52326AD21003D93AD /* Debug */,
+				211E68B62326AD21003D93AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211E689A2326AD21003D93AD /* Project object */;
+}

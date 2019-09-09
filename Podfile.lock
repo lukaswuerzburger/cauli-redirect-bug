@@ -1,0 +1,16 @@
+PODS:
+  - Cauliframework (1.0.1)
+
+DEPENDENCIES:
+  - Cauliframework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cauliframework
+
+SPEC CHECKSUMS:
+  Cauliframework: 564409590b076d29d3994c4bfc2fd2f9abcf3d62
+
+PODFILE CHECKSUM: 1f0ba71c218a4711b2c2f26cae44e1ef695686c3
+
+COCOAPODS: 1.7.5
