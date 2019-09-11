@@ -12,12 +12,19 @@ import Cauliframework
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // MARK: - UI Elements
+
     var window: UIWindow?
-    var cauli: Cauli?
+
+    // MARK: - Variables
+
+    var cauli: Cauli!
+
+    // MARK: - Application Delegate
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         cauli = Cauli([], configuration: .standard)
-        cauli!.run()
+        cauli.run()
         return true
     }
 }
